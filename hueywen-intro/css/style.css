@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+h1{
+  font-family: Montserrat, sans-serif;
+  font-size: 200px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 400px;
+  margin: 200px 0;
+} 
+
+h5 {
+	font-family: monaco;
+	padding-top: 15px;
+}
+
+h3,h4,h6 {
+	font-family: Montserrat, sans-serif;
+}
+
+.type {
+  color: #1976D2;
+}
+
+.typed-cursor {
+  color: #1976D2;  
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #1976D2;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#about {
+	background-color: #eff7ff;
+	padding-bottom: 50px;
+/*	padding-top: 30px;
+*/}
+
+#portfolio {
+	padding-bottom: 50px;
+/*	padding-top: 30px;
+*/
+}
+
+#contact {
+	background-color: #eff7ff;
+	padding-bottom: 50px;
+/*	padding-top: 30px;
+*/
+}
+
+#button {
+	position: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 5%;
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .gmail {
+    background: #B23121;
+    box-shadow: 0 0 16px #B23121;
+}
+.socialIcons .linkedin {
+    background: #0077B5;
+    box-shadow: 0 0 16px #0077B5;
+}
+.socialIcons .instagram {
+    background: #F77737;
+    box-shadow: 0 0 16px #F77737;
+}
